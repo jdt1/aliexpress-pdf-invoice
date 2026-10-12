@@ -1,0 +1,56 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+private/
+*.pem
+*.key
+*cookies*
+*session*.json
+*storage*state*.json
+*auth*state*.json
+
+# Account data and downloaded invoices
+data/
+invoices/
+downloads/
+exports/
+*.pdf
+*.har
+*.log
+logs/
+
+# Browser state and debugging artifacts
+browser-profile*/
+user-data*/
+playwright/.auth/
+playwright-report/
+test-results/
+traces/
+screenshots/
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Node tooling
+node_modules/
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
